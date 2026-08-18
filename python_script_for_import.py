@@ -43,5 +43,7 @@ df_1982_filter.groupby('month')['precipitation'].mean().plot(kind='bar', color='
 plt.title('Average Precipitation by Month (mm) in 1982')
 plt.ylabel('Average Snow Depth')
 plt.xlabel('Month')
+
+plt.savefig('output_plot.png', dpi=1000) 
 plt.show()
-plt.savefig('output_plot.png') 
+plt.draw()
