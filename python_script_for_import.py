@@ -44,6 +44,6 @@ plt.title('Average Precipitation by Month (mm) in 1982')
 plt.ylabel('Average Snow Depth')
 plt.xlabel('Month')
 
-plt.savefig('output_plot.png', dpi=1000) 
+plt.savefig('output_plot.png', dpi=300) 
 plt.show()
 plt.draw()
